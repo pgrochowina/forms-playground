@@ -11,6 +11,8 @@ html {
   body {
       display:flex;
       justify-content: center;
+      background: rgb(116, 116, 236);
+      font-family: Roboto;
   }
 
   .form{

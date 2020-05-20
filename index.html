@@ -14,7 +14,7 @@
         <p>
           <label for="firstName">Your name:</label>
           <input
-            class="form__item"
+            class="form__item first-name--js"
             type="text"
             value="Adam"
             placeholder="please enter your first name"
@@ -34,6 +34,56 @@
               name="lastName"
           /></label>
         </p>
+        <p>
+          <label
+            >Telephone number:
+            <input
+              class="form__item"
+              type="tel"
+              placeholder="please enter telephone number"
+              id="telephoneNumber"
+              name="telephoneNumber"
+          /></label>
+        </p>
+        <p>
+          <label
+            >E-mail:
+            <input
+              class="form__item"
+              type="email"
+              placeholder="please enter e-mail"
+              id="email"
+              name="email"
+          /></label>
+        </p>
+        <p>
+          <label
+            >How much loan do you need:
+            <input
+              class="form__item range--js"
+              type="range"
+              id="loan"
+              name="loan"
+              min="0"
+              max="1000"
+              step="100"
+          /></label>
+        </p>
+        <p>
+          <label
+            >Choose file:
+            <input
+              class="form__item"
+              id="report"
+              placeholder="please choose a file"
+              name="report"
+              type="file"
+              
+          /></label>
+        </p>
+        <p>
+          <label>Please enter password:<input class="form__item password--js" id="password" placeholder="please enter password" name="password" type="password"></label>
+        </p>
         <fieldset>
           <legend>Address</legend>
           <p>
@@ -45,6 +95,17 @@
                 placeholder="please enter street name"
                 id="streetName"
                 name="streetName"
+            /></label>
+          </p>
+          <p>
+            <label
+              >Building no.:
+              <input
+                class="form__item"
+                type="number"
+                placeholder="please enter building number"
+                id="buildingNumber"
+                name="buildingNumber"
             /></label>
           </p>
           <p>
