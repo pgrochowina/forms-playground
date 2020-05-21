@@ -84,6 +84,19 @@
         <p>
           <label>Please enter password:<input class="form__item password--js" id="password" placeholder="please enter password" name="password" type="password"></label>
         </p>
+        <p>
+          <label for="vegetables">Pick one vegetable: </label>
+          <select name="vegetables" id="vegetables">
+            <option value="vege-1">Carrot</option>
+            <option value="vege-2">Potato</option>
+            <option value="vege-3">Salat</option>
+            <option value="vege-3">Peace</option>
+          </select>
+        </p>
+        <p>
+          <label for="shortStory">Short story: </label>
+          <textarea class="form__item" name="shortStory" id="shortStory">Taka tam historyjka...</textarea>
+        </p>
         <fieldset>
           <legend>Address</legend>
           <p>
@@ -147,6 +160,9 @@
             <label><input name="bruceLee" type="checkbox"> Bruce Lee</label> 
           </p>
         </fieldset>
+        <p>
+          <input class="form__submit" name="send" type="submit" value="SEND THAT CRAZY FORM"/>
+        </p>
       </form>
     </main>
   </body>
